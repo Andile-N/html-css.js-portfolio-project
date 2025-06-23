@@ -324,7 +324,7 @@ article .icon{
 }
 /*projects section*/
 #Projects{
-    position: absolute;
+    position: relative;
 }
 .color-container{
     border-color: rgb(163,163,163);
@@ -365,18 +365,18 @@ article .icon{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5;
-    margin: 1rem;
+    gap: 10;
+    margin: 0.5rem;
 }
 .contact-info-container p{
-    font-size: larger;
+    font-size: 1.5rem;
 }
 .contact-icon{
     cursor: default;
     height: 10rem;
 }
 .email-icon{
-    height: 2.5rem;
+    height: 10rem;
 }
 /*footer*/
 footer{
